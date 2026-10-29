@@ -1,0 +1,91 @@
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #f8fafc;
+      color: #1e293b;
+      margin: 0;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .container {
+      max-width: 800px;
+      width: 100%;
+    }
+
+    h1 {
+      margin-bottom: 1.5rem;
+      color: #0f172a;
+      text-align: center;
+    }
+
+    .status-message {
+      padding: 1rem;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+      text-align: center;
+      font-weight: 500;
+    }
+
+    .loading {
+      background-color: #e0f2fe;
+      color: #0369a1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+    }
+
+    .error {
+      background-color: #fee2e2;
+      color: #b91c1c;
+      border: 1px solid #f87171;
+    }
+
+    .empty {
+      background-color: #fef3c7;
+      color: #92400e;
+    }
+
+    .user-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 1rem;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+
+    .user-card {
+      background: #ffffff;
+      padding: 1.25rem;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+      border: 1px solid #e2e8f0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .user-name {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #0f172a;
+      margin: 0;
+    }
+
+    .user-info {
+      font-size: 0.9rem;
+      color: #64748b;
+      margin: 0;
+    }
+
+    .user-info strong {
+      color: #334155;
+    }
+
+    .hidden {
+      display: none !important;
+    }
